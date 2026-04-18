@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log
+.sparkStaging/
+
+# Logs
+*.log
+!data/sample_logs.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
